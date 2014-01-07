@@ -1,3 +1,5 @@
+//CLEARFIX
+
 .clearfix:after
 	content: "."
 	display: block
@@ -15,9 +17,22 @@ html[xmlns] .clearfix
 * html .clearfix
 	height: 1%
 
+// OVERWRITING MAIN.css
+
 .container
 	width: 100%
 	max-width: 960px
+
+.btn-facebook
+	background: url(http://monterail.com/images/ico-facebook.png) left center no-repeat
+	line-height: 32px
+	font-size: 16px 
+.btn-twitter
+	background: url(http://monterail.com/images/ico-twitter.png) left center no-repeat
+	line-height: 32px
+	font-size: 16px 
+
+// QUERIES	
 
 .ill
 	@media screen and (max-width: 900px)
