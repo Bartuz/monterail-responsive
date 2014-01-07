@@ -31,6 +31,25 @@ html[xmlns] .clearfix
 	background: url(http://monterail.com/images/ico-twitter.png) left center no-repeat
 	line-height: 32px
 	font-size: 16px 
+@media screen and (max-width: 330px)
+	#header hgroup
+		width: 100%
+		li
+			float: left
+			&:first-child,&:last-child
+				width: 32px
+
+@media screen and (max-width: 630px)
+	#header hgroup
+		.btn-twitter, .btn-facebook
+			background: none
+		.btn-twitter
+			margin: 17px 0 0 26px
+
+@media screen and (min-width: 630px)
+	#header hgroup
+		.btn-twitter, .btn-facebook
+			display: none
 
 // QUERIES	
 

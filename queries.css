@@ -19,6 +19,31 @@ html[xmlns] .clearfix {
   width: 100%;
   max-width: 960px; }
 
+.btn-facebook {
+  background: url(http://monterail.com/images/ico-facebook.png) left center no-repeat;
+  line-height: 32px;
+  font-size: 16px; }
+
+.btn-twitter {
+  background: url(http://monterail.com/images/ico-twitter.png) left center no-repeat;
+  line-height: 32px;
+  font-size: 16px; }
+
+@media screen and (max-width: 330px) {
+  #header hgroup {
+    width: 100%; }
+    #header hgroup li {
+      float: left; }
+      #header hgroup li:first-child, #header hgroup li:last-child {
+        width: 32px; } }
+@media screen and (max-width: 630px) {
+  #header hgroup .btn-twitter, #header hgroup .btn-facebook {
+    background: none; }
+  #header hgroup .btn-twitter {
+    margin: 17px 0 0 26px; } }
+@media screen and (min-width: 630px) {
+  #header hgroup .btn-twitter, #header hgroup .btn-facebook {
+    display: none; } }
 @media screen and (max-width: 900px) {
   .ill {
     display: none; } }
