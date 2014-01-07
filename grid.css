@@ -11,18 +11,19 @@
 
 
 /* Grid >> 12 Columns ----------------------------------------------------------------------------------------------------*/
-.grid_1 { width:60px; }
-.grid_2 { width:140px; }
-.grid_3 { width:220px; }
-.grid_4 { width:300px; }
-.grid_5 { width:380px; }
-.grid_6 { width:460px; }
-.grid_7 { width:540px; }
-.grid_8 { width:620px; }
-.grid_9 { width:700px; }
-.grid_10 { width:780px; }
-.grid_11 { width:860px; }
-.grid_12 { width:940px; }
+.grid_1 { width:6.382978723404%; }
+.grid_2 { width:14.893617021277%; }
+.grid_3 { width:23.404255319149%; }
+.grid_4 { width:31.914893617021%; }
+.grid_5 { width:40.425531914894%; }
+.grid_6 { width:48.936170212766%; }
+.grid_7 { width:57.446808510638%; }
+.grid_8 { width:65.957446808511%; }
+.grid_9 { width:74.468085106383%; }
+.grid_10 { width:82.978723404255%; }
+.grid_11 { width:91.489361702128%; }
+.grid_12 { width:100%; }
+
 
 
 /* Prefix Extra Space >> 12 Columns
