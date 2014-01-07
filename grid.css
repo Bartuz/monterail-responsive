@@ -43,17 +43,17 @@
 
 /* Suffix Extra Space >> 12 Columns
 ----------------------------------------------------------------------------------------------------*/
-.suffix_1 { margin-right:80px; }
-.suffix_2 { margin-right:160px; }
-.suffix_3 { margin-right:240px; }
-.suffix_4 { margin-right:320px; }
-.suffix_5 { margin-right:400px; }
-.suffix_6 { margin-right:480px; }
-.suffix_7 { margin-right:560px; }
-.suffix_8 { margin-right:640px; }
-.suffix_9 { margin-right:720px; }
-.suffix_10 { margin-right:800px; }
-.suffix_11 { margin-right:880px; }
+.suffix_1 { margin-right:8.3333333333333%;}
+.suffix_2 { margin-right:16.666666666667%; }
+.suffix_3 { margin-right:25.000000000000%; }
+.suffix_4 { margin-right:33.333333333333%; }
+.suffix_5 { margin-right:41.666666666667%; }
+.suffix_6 { margin-right:50.000000000000%; }
+.suffix_7 { margin-right:58.333333333333%; }
+.suffix_8 { margin-right:66.666666666667%; }
+.suffix_9 { margin-right:75.000000000000%; }
+.suffix_10 { margin-right:83.33333333333%; }
+.suffix_11 { margin-right:91.66666666667%; }
 
 
 /* Push Space >> 12 Columns ----------------------------------------------------------------------------------------------------*/
