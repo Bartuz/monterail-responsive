@@ -38,7 +38,7 @@ html[xmlns] .clearfix {
   #header {
     height: 150px;
     margin-bottom: 10px; } }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 400px) {
   #header hgroup {
     width: 100%; } }
 #header hgroup li {
@@ -58,6 +58,9 @@ html[xmlns] .clearfix {
   #header hgroup .btn-twitter, #header hgroup .btn-facebook {
     margin-left: 5%;
     background: none; } }
+  @media screen and (max-width: 630px) and (min-width: 365px) {
+    #header hgroup li {
+      margin-left: 7% !important; } }
 @media screen and (min-width: 630px) {
   #header hgroup .btn-twitter, #header hgroup .btn-facebook {
     display: none; } }
