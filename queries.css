@@ -37,10 +37,13 @@ html[xmlns] .clearfix {
       #header hgroup li:first-child, #header hgroup li:last-child {
         width: 32px; } }
 @media screen and (max-width: 630px) {
+  #header hgroup h1 a {
+    margin-top: 0; }
+  #header hgroup li {
+    margin-top: 22px; }
   #header hgroup .btn-twitter, #header hgroup .btn-facebook {
-    background: none; }
-  #header hgroup .btn-twitter {
-    margin: 17px 0 0 26px; } }
+    margin-left: 5%;
+    background: none; } }
 @media screen and (min-width: 630px) {
   #header hgroup .btn-twitter, #header hgroup .btn-facebook {
     display: none; } }
