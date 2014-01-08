@@ -114,8 +114,12 @@ html[xmlns] .clearfix {
           font-size: 28px !important; }
       #intro .intro p {
         background: url("./Monterail · offshore Ruby on Rails development agency_files/home.png") 0 0 no-repeat;
-        background-position: 32px -113px;
+        background-position: 20px -60px;
         margin-bottom: 30px;
         text-shadow: -2.8px 0.2px 0.1px whitesmoke; }
       #intro .intro ul {
         display: none; } }
+
+@media screen and (max-width: 400px) {
+  #teasers #works {
+    width: 100%; } }
