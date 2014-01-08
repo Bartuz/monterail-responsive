@@ -123,36 +123,35 @@ html[xmlns] .clearfix {
         display: none; } }
 
 @media screen and (max-width: 400px) {
-  #teasers {
-    float: none; }
-    #teasers #works {
-      padding-bottom: 37px;
-      text-align: center;
-      width: 100%; }
-      #teasers #works figure {
-        width: 91%; }
-        #teasers #works figure img {
-          width: 100%; }
-      #teasers #works h3 {
-        margin-left: 0; }
-      #teasers #works p {
-        width: 91% !important; }
-        #teasers #works p.more {
-          margin-left: 6%;
-          text-align: center; }
-          #teasers #works p.more a {
-            text-align: center;
-            margin-right: 0 !important; } }
-  @media screen and (max-width: 400px) and (max-width: 400px) {
-    #teasers #blogs {
-      width: 100%; }
-      #teasers #blogs article aside figure {
-        float: left; }
-      #teasers #blogs article aside time {
-        float: right;
-        font-size: 13px; }
-      #teasers #blogs article header {
-        margin-top: 33px;
-        font-size: 13px; }
-        #teasers #blogs article header pre {
-          font-size: 8px !important; } }
+  #teasers #works {
+    padding-bottom: 37px;
+    text-align: center;
+    width: 100%; }
+    #teasers #works figure {
+      width: 91%; }
+      #teasers #works figure img {
+        width: 100%; }
+    #teasers #works h3 {
+      margin-left: 0; }
+    #teasers #works p {
+      width: 91% !important; }
+      #teasers #works p.more {
+        margin-left: 6%;
+        text-align: center; }
+        #teasers #works p.more a {
+          text-align: center;
+          margin-right: 0 !important;
+          margin-left: 4%; } }
+@media screen and (max-width: 400px) and (max-width: 400px) {
+  #teasers #blogs {
+    width: 100%; }
+    #teasers #blogs article aside figure {
+      float: left; }
+    #teasers #blogs article aside time {
+      float: right;
+      font-size: 13px; }
+    #teasers #blogs article header {
+      margin-top: 33px;
+      font-size: 13px; }
+      #teasers #blogs article header pre {
+        font-size: 8px !important; } }
