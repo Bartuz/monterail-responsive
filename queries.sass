@@ -31,34 +31,6 @@ html[xmlns] .clearfix
 	background: url(http://monterail.com/images/ico-twitter.png) left center no-repeat
 	line-height: 32px
 	font-size: 16px 
-@media screen and (max-width: 330px)
-	#header hgroup
-		width: 100%
-		li
-			float: left
-			&:first-child,&:last-child
-				width: 32px
-			h1
-				width: 151px
-
-@media screen and (max-width: 630px)
-	#header hgroup
-		h1 a
-			margin-top: 0
-		li
-			margin-left: 5%
-			margin-top: 22px
-			h1 a
-				margin-left: 0
-		.btn-twitter, .btn-facebook
-			margin-left: 5%
-			background: none
-		.btn-twitter
-
-@media screen and (min-width: 630px)
-	#header hgroup
-		.btn-twitter, .btn-facebook
-			display: none
 
 // QUERIES	
 
@@ -66,36 +38,62 @@ html[xmlns] .clearfix
 	@media screen and (max-width: 900px)
 		display: none
 
-#main-nav
-	@media screen and(max-width: 865px)
-		left: 0
-		float: right
-		width: 65.957446808511%
-	@media screen and(max-width: 630px)
-		width: 100%
-	li
-		@media screen and(max-width:460px)
-			margin-right: 30px
-		@media screen and(max-width:360px)
-			margin-right: 15px
-			font-size: 13px
-	ul
-		@media screen and(max-width: 630px)
-			width: 100%
-			margin-left: 15%
-		@media screen and(max-width: 560px)
-			margin-left: 12%
-		@media screen and(max-width: 490px)
-			margin-left: 8%
-		@media screen and(max-width: 490px)
-			margin-left: 12%
-		@media screen and(max-width: 490px)
-			margin-left: 10%
-		@media screen and(max-width: 405px)
-			margin-left: 10%
-		@media screen and(max-width: 380px)
-			margin-left: 5%
+	
 #header
 	@media screen and(max-width: 630px)
 		height: 150px
 		margin-bottom: 10px
+	hgroup
+		@media screen and (max-width: 330px)
+			width: 100%
+		li
+			float: left
+			&:first-child,&:last-child
+				width: 32px
+			h1
+				width: 151px
+		@media screen and (max-width: 630px)
+			h1 a
+				margin-top: 0
+			li
+				margin-left: 5%
+				margin-top: 22px
+				h1 a
+					margin-left: 0
+			.btn-twitter, .btn-facebook
+				margin-left: 5%
+				background: none
+			.btn-twitter
+		@media screen and (min-width: 630px)
+			.btn-twitter, .btn-facebook
+				display: none
+	#main-nav
+		@media screen and(max-width: 865px)
+			left: 0
+			float: right
+			width: 65.957446808511%
+		@media screen and(max-width: 630px)
+			width: 100%
+		li
+			@media screen and(max-width:460px)
+				margin-right: 30px
+			@media screen and(max-width:360px)
+				margin-right: 15px
+				font-size: 13px
+		ul
+			@media screen and(max-width: 630px)
+				width: 100%
+				margin-left: 15%
+			@media screen and(max-width: 560px)
+				margin-left: 12%
+			@media screen and(max-width: 490px)
+				margin-left: 8%
+			@media screen and(max-width: 490px)
+				margin-left: 12%
+			@media screen and(max-width: 490px)
+				margin-left: 10%
+			@media screen and(max-width: 405px)
+				margin-left: 10%
+			@media screen and(max-width: 380px)
+				margin-left: 5%
+			

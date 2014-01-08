@@ -29,15 +29,23 @@ html[xmlns] .clearfix {
   line-height: 32px;
   font-size: 16px; }
 
+@media screen and (max-width: 900px) {
+  .ill {
+    display: none; } }
+
+@media screen and (max-width: 630px) {
+  #header {
+    height: 150px;
+    margin-bottom: 10px; } }
 @media screen and (max-width: 330px) {
   #header hgroup {
-    width: 100%; }
-    #header hgroup li {
-      float: left; }
-      #header hgroup li:first-child, #header hgroup li:last-child {
-        width: 32px; }
-      #header hgroup li h1 {
-        width: 151px; } }
+    width: 100%; } }
+#header hgroup li {
+  float: left; }
+  #header hgroup li:first-child, #header hgroup li:last-child {
+    width: 32px; }
+  #header hgroup li h1 {
+    width: 151px; }
 @media screen and (max-width: 630px) {
   #header hgroup h1 a {
     margin-top: 0; }
@@ -52,49 +60,40 @@ html[xmlns] .clearfix {
 @media screen and (min-width: 630px) {
   #header hgroup .btn-twitter, #header hgroup .btn-facebook {
     display: none; } }
-@media screen and (max-width: 900px) {
-  .ill {
-    display: none; } }
-
 @media screen and (max-width: 865px) {
-  #main-nav {
+  #header #main-nav {
     left: 0;
     float: right;
     width: 65.95745%; } }
 @media screen and (max-width: 630px) {
-  #main-nav {
+  #header #main-nav {
     width: 100%; } }
 @media screen and (max-width: 460px) {
-  #main-nav li {
+  #header #main-nav li {
     margin-right: 30px; } }
 @media screen and (max-width: 360px) {
-  #main-nav li {
+  #header #main-nav li {
     margin-right: 15px;
     font-size: 13px; } }
 @media screen and (max-width: 630px) {
-  #main-nav ul {
+  #header #main-nav ul {
     width: 100%;
     margin-left: 15%; } }
 @media screen and (max-width: 560px) {
-  #main-nav ul {
+  #header #main-nav ul {
     margin-left: 12%; } }
 @media screen and (max-width: 490px) {
-  #main-nav ul {
+  #header #main-nav ul {
     margin-left: 8%; } }
 @media screen and (max-width: 490px) {
-  #main-nav ul {
+  #header #main-nav ul {
     margin-left: 12%; } }
 @media screen and (max-width: 490px) {
-  #main-nav ul {
+  #header #main-nav ul {
     margin-left: 10%; } }
 @media screen and (max-width: 405px) {
-  #main-nav ul {
+  #header #main-nav ul {
     margin-left: 10%; } }
 @media screen and (max-width: 380px) {
-  #main-nav ul {
+  #header #main-nav ul {
     margin-left: 5%; } }
-
-@media screen and (max-width: 630px) {
-  #header {
-    height: 150px;
-    margin-bottom: 10px; } }
