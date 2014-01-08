@@ -34,7 +34,7 @@ html[xmlns] .clearfix {
   .ill {
     display: none; } }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   .wrapper {
     margin-bottom: -200px; } }
 
@@ -42,7 +42,10 @@ html[xmlns] .clearfix {
   #header {
     height: 150px;
     margin-bottom: 10px; } }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
+  #header hgroup {
+    width: 20%; } }
+@media screen and (max-width: 630px) {
   #header hgroup {
     width: 100%; } }
 #header hgroup li {
@@ -65,6 +68,24 @@ html[xmlns] .clearfix {
   @media screen and (max-width: 630px) and (min-width: 365px) {
     #header hgroup li {
       margin-left: 7% !important; } }
+  @media screen and (max-width: 630px) and (min-width: 470px) {
+    #header hgroup li {
+      margin-left: 11% !important; } }
+  @media screen and (max-width: 630px) and (min-width: 590px) {
+    #header hgroup li {
+      margin-left: 11.9% !important; } }
+  @media screen and (max-width: 630px) and (min-width: 510px) {
+    #header hgroup li {
+      margin-left: 12.8% !important; } }
+  @media screen and (max-width: 630px) and (min-width: 532px) {
+    #header hgroup li {
+      margin-left: 13% !important; } }
+  @media screen and (max-width: 630px) and (min-width: 590px) {
+    #header hgroup li {
+      margin-left: 14% !important; } }
+  @media screen and (max-width: 630px) and (min-width: 614px) {
+    #header hgroup li {
+      margin-left: 15% !important; } }
 @media screen and (min-width: 630px) {
   #header hgroup .btn-twitter, #header hgroup .btn-facebook {
     display: none; } }
@@ -106,7 +127,7 @@ html[xmlns] .clearfix {
   #header #main-nav ul {
     margin-left: 4%; } }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   #intro {
     height: auto;
     margin-bottom: 0; }
@@ -129,7 +150,7 @@ html[xmlns] .clearfix {
       #intro .intro ul {
         display: none; } }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   #teasers #works {
     padding-bottom: 37px;
     text-align: center;
@@ -162,7 +183,7 @@ html[xmlns] .clearfix {
     #teasers #blogs article .ruby {
       font-size: 8px !important; } }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   #testimonials {
     width: 98%;
     margin-top: -29px; }
@@ -175,7 +196,7 @@ html[xmlns] .clearfix {
       width: 98%;
       margin: 0 2% -14px; } }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   #footer {
     width: 100%;
     height: 257px;
