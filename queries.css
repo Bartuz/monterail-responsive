@@ -34,6 +34,10 @@ html[xmlns] .clearfix {
   .ill {
     display: none; } }
 
+@media screen and (max-width: 400px) {
+  .wrapper {
+    margin-bottom: -200px; } }
+
 @media screen and (max-width: 630px) {
   #header {
     height: 150px;
