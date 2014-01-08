@@ -35,12 +35,17 @@ html[xmlns] .clearfix {
     #header hgroup li {
       float: left; }
       #header hgroup li:first-child, #header hgroup li:last-child {
-        width: 32px; } }
+        width: 32px; }
+      #header hgroup li h1 {
+        width: 151px; } }
 @media screen and (max-width: 630px) {
   #header hgroup h1 a {
     margin-top: 0; }
   #header hgroup li {
+    margin-left: 5%;
     margin-top: 22px; }
+    #header hgroup li h1 a {
+      margin-left: 0; }
   #header hgroup .btn-twitter, #header hgroup .btn-facebook {
     margin-left: 5%;
     background: none; } }
