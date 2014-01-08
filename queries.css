@@ -99,14 +99,15 @@ html[xmlns] .clearfix {
   #header #main-nav ul {
     margin-left: 5%; } }
 
-#intro {
-  height: auto;
-  margin-bottom: 0; }
-  @media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
+  #intro {
+    height: auto;
+    margin-bottom: 0; }
     #intro .intro {
       width: 100%;
       margin: 0 auto;
-      text-align: center; }
+      text-align: center;
+      text-shadow: -2.8px 0.2px 0.1px whitesmoke; }
       #intro .intro h2.tk-adelle {
         margin-top: 10px !important;
         font-size: 19px !important; }
@@ -116,12 +117,20 @@ html[xmlns] .clearfix {
         background: url("./Monterail · offshore Ruby on Rails development agency_files/home.png") 0 0 no-repeat;
         background-position: 20px -60px;
         margin-bottom: 30px;
-        text-shadow: -2.8px 0.2px 0.1px whitesmoke;
         margin-top: -132px;
         padding-top: 132px; }
       #intro .intro ul {
         display: none; } }
 
 @media screen and (max-width: 400px) {
-  #teasers #works {
-    width: 100%; } }
+  #teasers {
+    float: none; }
+    #teasers #works {
+      text-align: center;
+      width: 100%; }
+      #teasers #works figure {
+        width: 91%; }
+        #teasers #works figure img {
+          width: 100%; }
+      #teasers #works p {
+        width: 91% !important; } }

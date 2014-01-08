@@ -96,24 +96,25 @@ html[xmlns] .clearfix
 			@media screen and(max-width: 380px)
 				margin-left: 5%
 #intro
-	height: auto
-	margin-bottom: 0
-	.intro
-		@media screen and (max-width: 400px)
+	@media screen and (max-width: 400px)
+		height: auto
+		margin-bottom: 0
+		.intro
 			float:none
 			width: 100%
 			margin: 0 auto
 			text-align: center
+			text-shadow: -2.8px 0.2px 0.1px whitesmoke
 			h2.tk-adelle // RED TEXT
 				margin-top: 10px !important
 				font-size: 19px !important
 				strong
+
 					font-size: 28px !important
 			p
 				background: url("./Monterail · offshore Ruby on Rails development agency_files/home.png") 0 0 no-repeat
 				background-position: 20px -60px
 				margin-bottom: 30px
-				text-shadow: -2.8px 0.2px 0.1px whitesmoke
 				// THAT EXTENDS BG-IMAGE. ITS VISIBLE OUTSIDE P BLOCK!!!
 				//  AWW MY GOD THAT CRAZY!!!!
 				margin-top: -132px
@@ -121,6 +122,14 @@ html[xmlns] .clearfix
 			ul
 				display: none
 #teasers
-	#works
-		@media screen and (max-width: 400px)
+	@media screen and (max-width: 400px)
+		float: none
+		#works
+			text-align: center	
 			width: 100%
+			figure
+				width: 91%
+				img
+					width: 100%	
+			p
+				width: 91% !important
