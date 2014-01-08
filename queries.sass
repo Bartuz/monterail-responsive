@@ -94,7 +94,7 @@ html[xmlns] .clearfix
 			@media screen and(max-width: 405px)
 				margin-left: 10%
 			@media screen and(max-width: 380px)
-				margin-left: 5%
+				margin-left: 4%
 #intro
 	@media screen and (max-width: 400px)
 		height: auto
@@ -143,17 +143,24 @@ html[xmlns] .clearfix
 						margin-right: 0 !important
 						margin-left: 4%
 		#blogs
-			@media screen and (max-width: 400px)
-				width: 100%
-				article
-					aside
-						figure
-							float: left
-						time
-							float: right
-							font-size: 13px
-					header
-						margin-top: 33px
+			width: 98%
+			article
+				aside
+					figure
+						float: left
+					time
+						float: right
 						font-size: 13px
-						pre
-							font-size: 8px !important
+				header
+					margin-top: 33px
+					font-size: 13px
+				.ruby
+					font-size: 8px !important
+
+#testimonials
+	@media screen and (max-width: 400px)
+		margin-top: 13px
+		blockquote
+			&:before
+				margin: -0.6em 0 0 -125px
+				font: italic bold 84px/1 "Minion Pro", "minion pro", "minion", "Palatino", "Times New Roman", "Times", sans-serif				

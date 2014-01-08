@@ -97,7 +97,7 @@ html[xmlns] .clearfix {
     margin-left: 10%; } }
 @media screen and (max-width: 380px) {
   #header #main-nav ul {
-    margin-left: 5%; } }
+    margin-left: 4%; } }
 
 @media screen and (max-width: 400px) {
   #intro {
@@ -141,10 +141,9 @@ html[xmlns] .clearfix {
         #teasers #works p.more a {
           text-align: center;
           margin-right: 0 !important;
-          margin-left: 4%; } }
-@media screen and (max-width: 400px) and (max-width: 400px) {
+          margin-left: 4%; }
   #teasers #blogs {
-    width: 100%; }
+    width: 98%; }
     #teasers #blogs article aside figure {
       float: left; }
     #teasers #blogs article aside time {
@@ -153,5 +152,12 @@ html[xmlns] .clearfix {
     #teasers #blogs article header {
       margin-top: 33px;
       font-size: 13px; }
-      #teasers #blogs article header pre {
-        font-size: 8px !important; } }
+    #teasers #blogs article .ruby {
+      font-size: 8px !important; } }
+
+@media screen and (max-width: 400px) {
+  #testimonials {
+    margin-top: 13px; }
+    #testimonials blockquote:before {
+      margin: -0.6em 0 0 -125px;
+      font: italic bold 84px/1 "Minion Pro", "minion pro", "minion", "Palatino", "Times New Roman", "Times", sans-serif; } }
