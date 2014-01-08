@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .clearfix:after {
   content: ".";
   display: block;
@@ -97,3 +98,24 @@ html[xmlns] .clearfix {
 @media screen and (max-width: 380px) {
   #header #main-nav ul {
     margin-left: 5%; } }
+
+#intro {
+  height: auto;
+  margin-bottom: 0; }
+  @media screen and (max-width: 400px) {
+    #intro .intro {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center; }
+      #intro .intro h2.tk-adelle {
+        margin-top: 10px !important;
+        font-size: 19px !important; }
+        #intro .intro h2.tk-adelle strong {
+          font-size: 28px !important; }
+      #intro .intro p {
+        background: url("./Monterail · offshore Ruby on Rails development agency_files/home.png") 0 0 no-repeat;
+        background-position: 32px -113px;
+        margin-bottom: 30px;
+        text-shadow: -2.8px 0.2px 0.1px whitesmoke; }
+      #intro .intro ul {
+        display: none; } }
