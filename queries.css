@@ -159,6 +159,8 @@ html[xmlns] .clearfix {
   #testimonials {
     width: 98%;
     margin-top: -29px; }
+    #testimonials .avatar {
+      margin: -37px 0 0 215px; }
     #testimonials blockquote:before {
       margin: -0.4em 0 0 -72px;
       font: italic bold 84px/1 "Minion Pro", "minion pro", "minion", "Palatino", "Times New Roman", "Times", sans-serif; }
@@ -176,4 +178,7 @@ html[xmlns] .clearfix {
       text-align: left;
       margin-left: 5%;
       font-size: 16px;
-      margin-bottom: 5px; } }
+      margin-bottom: 5px; }
+    #footer .bonus a {
+      opacity: 1;
+      top: 18px; } }
